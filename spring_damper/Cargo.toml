@@ -1,7 +1,9 @@
 [package]
-name = "spring_damper" # the name of the package
-version = "0.1.0"    # the current version, obeying semver
-authors = ["Kwon <ksu619@naver.com>"]
+name = "spring_plot"
+version = "0.1.0"
+edition = "2021"
 
 [dependencies]
-ndarray = "0.15.3"
+eframe = "0.27"
+egui = "0.27"
+egui_plot = "0.27"
