@@ -5,7 +5,7 @@ use std::thread;
 
 fn main() -> std::io::Result<()> {
     // UDP 소켓 생성 및 로컬 주소에 바인딩
-    let socket = UdpSocket::bind("0.0.0.0:0")?;
+    let socket = UdpSocket::bind("0.0.0.0:8787")?;
 
     // 서버의 주소 설정
     let server_address = "127.0.0.1:7878";
